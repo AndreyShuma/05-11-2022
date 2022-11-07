@@ -1,0 +1,92 @@
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+.list-a {
+	text-decoration:none;
+	color: #222B3A;
+}
+.main {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.item1 {
+	width: 5px;
+	background-color: black;
+	border-radius: 50%;	
+}
+.content {
+
+}
+.header-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.header-list {
+	display: flex;
+	margin-left: 10px;
+
+}
+.list {
+	margin-right:88px;
+}
+
+.list-ul {
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+}
+.list-li {
+	list-style: none;
+	color: #222B3A;
+	font-weight: bold;
+	
+}
+.list-li:not(:first-child) {
+	margin-left: 35px;
+}
+.items {
+	
+	font-weight: bold;
+	margin-right: -10px;
+}
+
+.face_Dmitriy {
+	background: #296DCE;
+	height: 513px;
+}
+.face-conent {
+	max-width: 1110px;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+.header-h1 {
+	font-size: 38px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
+}
+.header-h2 {
+	font-size: 24px;
+	color: #FF8A00;
+	text-transform: uppercase;
+}
+.button {
+	font-size: 14px;
+	color: #FFFFFF;
+	border: 1px solid white;
+	width: 209px;
+	height: 44px;
+	text-align: center;
+	
+}
+.button-a {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
