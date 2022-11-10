@@ -16,9 +16,6 @@
 	background-color: black;
 	border-radius: 50%;	
 }
-.content {
-
-}
 .header-div {
 	display: flex;
 	flex-direction: row;
@@ -56,20 +53,33 @@
 	margin-right: -10px;
 }
 
-.face_Dmitriy {
+.section_Dmitriy {
 	background: #296DCE;
+	/* background-image: url(/img/Vector\ 2.1.png) cover ; */
+	/* background-image: url(/img/Vector\ 2.png); */
 	height: 513px;
 }
-.face-conent {
-	max-width: 1110px;
-	margin: 0 auto;
-	border: 1px solid green;
+.section-flex {
+	display: flex;
+	/* align-items: center; */
+	flex-direction: row;
+	align-content: space-between
+
 }
+
+.foto_Karpachoff_img {
+	opacity: 1;
+	width: 339px;
+	height: 479px;
+	margin-top: 34px;
+
+}
+
 .header-h1 {
 	font-size: 38px;
 	color: #FFFFFF;
 	text-transform: uppercase;
-
+	margin-top: 66px;
 }
 .header-h2 {
 	font-size: 24px;
@@ -80,9 +90,14 @@
 	font-size: 14px;
 	color: #FFFFFF;
 	border: 1px solid white;
+	border-radius: 4px;
 	width: 209px;
 	height: 44px;
-	text-align: center;
+	/* text-align: center; */
+	/* line-height: 44px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 }
 .button-a {
@@ -90,3 +105,52 @@
 	color: #FFFFFF;
 }
 
+.tema-border {
+	border: 2px solid #F3F3F3;
+	border-radius: 3px;
+	Width: 468px;
+	height: 15px;
+	margin-top: 75px;
+}
+.tema-backgraund {
+height: 100%;
+width: 209px;
+background-color: #F3F3F3;
+margin: 0 0px 0 260px;
+border-radius: 2px;
+}
+.tema-num {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.ten {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #FFFFFF;	
+
+}
+.six {
+	margin-left: 165px;
+}
+.big {
+	font-size: 38px;
+	color: #FFFFFF;
+	font-weight: 900;
+	margin-right: 9px;
+}
+.content-navi {
+	display: flex;
+	flex-direction: row;
+	
+
+}
+.conten-navi-item {
+	margin: 0px 50px 0px 0px;
+}
+div.conten-navi-item a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #979FAD;
+}
