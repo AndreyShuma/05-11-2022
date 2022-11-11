@@ -6,6 +6,8 @@
 .list-a {
 	text-decoration:none;
 	color: #222B3A;
+	font-weight: bold;
+	/* margin-right: 10px; */
 }
 .main {
 	max-width: 1110px;
@@ -16,27 +18,30 @@
 	background-color: black;
 	border-radius: 50%;	
 }
-.header-div {
+.header {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
-	
+	justify-content: space-between;	
 }
 
 .header-list {
 	display: flex;
-	margin-left: 10px;
-
+	align-items: center;
 }
+
 .list {
 	margin-right:88px;
+
 }
 
 .list-ul {
-	display: flex;
-	flex-direction: row;
-	padding: 0px;
+	display: flex;	
+	/* width: fit-content; */
+	/* margin-left: auto; */
+	align-items: center;
+	margin-right: 20px;
+	/* align-self: center; */
+
 }
 .list-li {
 	list-style: none;
@@ -47,8 +52,7 @@
 .list-li:not(:first-child) {
 	margin-left: 35px;
 }
-.items {
-	
+.items {	
 	font-weight: bold;
 	margin-right: -10px;
 }
@@ -113,10 +117,10 @@
 	margin-top: 75px;
 }
 .tema-backgraund {
-height: 100%;
+height: 16px;
 width: 209px;
 background-color: #F3F3F3;
-margin: 0 0px 0 260px;
+margin: -1px 0px 0px 260px;
 border-radius: 2px;
 }
 .tema-num {
@@ -153,4 +157,64 @@ div.conten-navi-item a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #979FAD;
+}
+
+.tema-kursa {
+	height: 100px;
+	background-color: #F3F3F3;
+	margin: 30px auto;
+	/* border: 1px solid blue; */
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tema-kursa1 {
+	/* border: 1px solid red; */
+	width: 1110px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tema-kursa2 {
+	font-size: 18px;
+	color: #222B3A;
+	font-weight: bold;
+
+}
+.age-chaild {
+	font-size: 18px;
+	color: #222B3A;
+	font-weight: bold;
+	border: 2px chocolate solid;
+	padding: 20px;
+	color: chocolate;
+}
+
+/* .tema-kursa2::before {
+	content: "";
+	border: 1px solid #222B3A;
+	display: inline-block;
+	width: 22px;
+} */
+.test {
+	background-color: #FF8A00;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.test-internal1 {
+	background-color: red ;
+	height: 30px;
+	width: 30px;
+}
+.test-internal2 {
+	background-color: rgb(68, 15, 216) ;
+	height: 80px;
+	width: 30px;
 }
