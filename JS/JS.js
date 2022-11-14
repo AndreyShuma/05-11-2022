@@ -21,13 +21,13 @@ const myCity = {
 };
 myCity.adress[userName]="undefind"
 myCity[fineCity] = "Yes";
-console.log(myCity);
-myCity.cityGreeting();
+// console.log(myCity);
+// myCity.cityGreeting();
 let k;
 let l;
 function mum(k,l) {
     const n = k+l;
-    console.log(n)
+    // console.log(n)
 };
 // mum(10, 30);
 // console.dir(mum);
@@ -49,6 +49,8 @@ function increasePersonAge (fhjhjhjk) {
 
 increasePersonAge(personOne);
 increasePersonAge(personOne1111);
-console.log(personOne);
-console.log(personOne1111);
-setTimeout()
+// console.log(Boolean(NaN));
+console.log(typeof(10));
+console.log( 'number' === typeof(10));
+let ttrrtt;
+console.log(typeof(ttrrtt));

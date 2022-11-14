@@ -1,4 +1,14 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html, body  {
+	font-family: 'Roboto';
+	/* margin: 0; */
+	height: 100%;
+	width: 100%;
+}
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -65,10 +75,7 @@
 }
 .section-flex {
 	display: flex;
-	/* align-items: center; */
-	flex-direction: row;
-	align-content: space-between
-
+	justify-content: space-between;	
 }
 
 .foto_Karpachoff_img {
@@ -110,19 +117,26 @@
 }
 
 .tema-border {
-	border: 2px solid #F3F3F3;
+	/* border: 2px solid #F3F3F3; */
 	border-radius: 3px;
 	Width: 468px;
 	height: 15px;
+	background-color: #F3F3F3;
 	margin-top: 75px;
+	display: flex;
+	align-items: center;
+
+
 }
+
 .tema-backgraund {
-height: 16px;
-width: 209px;
-background-color: #F3F3F3;
-margin: -1px 0px 0px 260px;
+height: 11px;
+width: 259px;
+background-color: #296DCE;
 border-radius: 2px;
+margin-left: 2px;
 }
+
 .tema-num {
 	display: flex;
 	align-items: center;
@@ -179,42 +193,61 @@ div.conten-navi-item a {
 }
 .tema-kursa2 {
 	font-size: 18px;
-	color: #222B3A;
+	color: 	#222B3A;
 	font-weight: bold;
 
 }
 .age-chaild {
-	font-size: 18px;
+	font-size: 14px;
 	color: #222B3A;
 	font-weight: bold;
-	border: 2px chocolate solid;
-	padding: 20px;
-	color: chocolate;
+	border: 2px #FC880D solid;
+	padding: 15px;
+	color: #FC880D;
+	width: 170px;
+	
 }
-
-/* .tema-kursa2::before {
-	content: "";
-	border: 1px solid #222B3A;
+.treugolnik {
 	display: inline-block;
-	width: 22px;
-} */
-.test {
-	background-color: #FF8A00;
-	height: 200px;
+	width: 0;
+	height: 0;
+    border-left:4px solid transparent;
+	border-top: 8px solid #FC880D;
+	border-right: 4px solid transparent;
+	text-align: center;
+	
+}
+.age-chaild:hover {
+	cursor: pointer;
+}
+
+
+.section-main {
+	/* background-color: #F3F3F3; */
+	height: 100%;
+	/* display: flex; */
+}
+.first-tema {
+	border: 1px solid #F3F3F3;
+	border-radius: 15px;
+	min-height: 203px;
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-
 }
-
-.test-internal1 {
-	background-color: red ;
-	height: 30px;
-	width: 30px;
+.number {
+	width: 148px;
+	/* height: 201px; */
+	font-size: 64px;
+	font-weight: bold;
+	color: #E1E1E1;
+	/* line-height: 100%; */
+	margin: auto;
 }
-.test-internal2 {
-	background-color: rgb(68, 15, 216) ;
-	height: 80px;
-	width: 30px;
+.text {
+	width: 800px;
+}
+.item-text>h2 {
+	color: #1092CB;	
+	font size: 24px;
+	font-weight: 800;
+	text-transform: uppercase;
 }
